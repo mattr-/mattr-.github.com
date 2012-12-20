@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+     <title>{{ page.title }}</title>
+     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+  </head>
+
+  <body>
+    <div class="site">
+      <div class="title">
+        <a href="/">Matt Rogers</a>
+        <a href="/" class="extra">home</a>
+      </div>
+
+      {{content}}
+
+      <div class="footer">
+        <div class="contact">
+          <p>
+            Matt Rogers<br />
+            mattrogers@sbcglobal.net
+          </p>
+        </div>
+        <div class="contact-right">
+          <p>
+            <a href="http://github.com/mattr-/">github.com/mattr-</a><br />
+            <a href="http://twitter.com/mattr_">twitter.com/mattr_</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
     <!-- Google Analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -13,10 +42,5 @@
        })();
      </script>
      <!-- Google Analytics end -->
-  </head>
-
-  <body>
-    {{content}}
   </body>
-
 </html>
