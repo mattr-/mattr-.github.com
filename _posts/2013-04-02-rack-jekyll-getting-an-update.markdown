@@ -5,7 +5,7 @@ title: Updates to rack-jekyll are coming soon!
 
 # {{ page.title }}
 
-Adão Raul's [rack-jekyll](https://github.com/adaoraul/rack-jekyll) gem
+Ad&#227;o Raul's [rack-jekyll](https://github.com/adaoraul/rack-jekyll) gem
 is a great piece of Rack middleware to serve out Jekyll sites using any
 Rack compatible app server. 
 
@@ -19,6 +19,6 @@ merged into master. I've also been given push access to the repo so that
 I can make sure the Jekyll support stays up to date as possible.
 
 I've also sent an email asking for a new release, and offering to help
-push it out to RubyGems if Adão so chooses to have me do that. Hopefully
+push it out to RubyGems if Ad&#227;o so chooses to have me do that. Hopefully
 I'll hear back soon and we can get a much needed update to rack-jekyll
 done!
