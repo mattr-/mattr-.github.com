@@ -22,3 +22,5 @@ I've also sent an email asking for a new release, and offering to help
 push it out to RubyGems if Ad&#227;o so chooses to have me do that. Hopefully
 I'll hear back soon and we can get a much needed update to rack-jekyll
 done!
+
+**Update**: rack-jekyll 0.4.0 is now out!
