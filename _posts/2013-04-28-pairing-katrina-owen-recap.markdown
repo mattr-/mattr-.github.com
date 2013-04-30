@@ -6,7 +6,8 @@ title: Pair Programming with Katrina Owen
 
 On Thursday, April 25th, I was fortunate enough to be able to spend a
 couple of hours pairing with [Katrina Owen](http://github.com/kytrinyx)
-on a refactoring for [Tracks](http://getontracks.org).
+on a refactoring for [Tracks](http://getontracks.org). Here's a brief
+retrospective on that session.
 
 I've read various places online that pair programming is more draining
 mentally than when you're just working by yourself. I didn't spend the
@@ -50,5 +51,6 @@ And some stuff I learned:
 
 To sum it all up, the more you pair with others, the more fun you'll
 have coding, the more you'll learn, and the better your code will be. I
-simply cannot recommend it enough.
+simply cannot recommend it enough. Thanks to Katrina for taking some
+time out of her busy schedule for a pairing session!
 
