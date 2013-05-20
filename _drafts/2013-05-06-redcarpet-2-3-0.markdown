@@ -1,0 +1,71 @@
+---
+layout: post
+title: Redcarpet 2.3.0 now available!
+---
+
+# {{ page.title }}
+
+[Robin](http://robin-dupret.com), [Vicent](http://vmg.im) ,and I are happy to announce the release of
+redcarpet 2.3.0. Since the last release, we've made a lot of bug fixes and
+closed many issues on Github. Big thanks to all [the
+contributors][contributors] for the numerous pull requests we have merged and
+for issues reported.
+
+# New features
+
+## Underline support
+
+We can now pass a new option to the `Redcarpet::Markdown` object: `:underline`.
+It allows you to parse underscored emphasis as underlines. For example, the code
+
+```ruby
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :underline => true)
+```
+
+renders the following markdown
+
+```
+This is *italic* and this is _underline_ when enabled
+```
+
+as
+
+<div class="result">
+This is <em>italic</em> and this is <u>underline</u> when enabled
+</div>
+
+## Google-code-prettify support
+
+Passing the `:prettify` option to a renderer adds a `prettyprint` class to your
+code blocks in order to make it work with google-code-prettify.
+
+## Org-table like syntax support
+
+Redcarpet now supports `+` (a plus sign) as line intersections instead of
+pipes. It can be a pain to translate tables from other markup (if you work with
+org mode for instance):
+
+```
+| Foo      | Bar            |
+|----------+----------------|
+| A column | A nice content |
+```
+
+## Disable indented code blocks
+
+This version ships with a new options that allows you to disable indented code
+blocks. You just need to pass the `:disable_indented_code_blocks` to a new
+`Redcarpet::Markdown` object and there you go!
+
+# Bug fixes
+
+We've made several bug fixes and cleaned up some pieces of code. The main ones are:
+
+* Add a `redcarpet_` prefix to some functions to prevent segmentation faults with
+libraries which share the same function names, such as older versions of ruby-prof.
+* Mark all symbols as hidden to avoid conflicts with other gems (such as houdini)
+
+There are other changes, of course. Please see the [changelog][Changelog] for further information.
+
+[contributors]: https://github.com/vmg/redcarpet/contributors
+[changelog]: https://github.com/vmg/redcarpet/blob/master/CHANGELOG.md
