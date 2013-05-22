@@ -6,7 +6,7 @@ title: Redcarpet 2.3.0 now available!
 # {{ page.title }}
 
 [Robin](http://robin-dupret.com), [Vicent](http://vmg.im) ,and I are happy to announce the release of
-redcarpet 2.3.0. Since the last release, we've made a lot of bug fixes and
+Redcarpet 2.3.0. Since the last release, we've made a lot of bug fixes and
 closed many issues on Github. Big thanks to all [the
 contributors][contributors] for the numerous pull requests we have merged and
 for issues reported.
