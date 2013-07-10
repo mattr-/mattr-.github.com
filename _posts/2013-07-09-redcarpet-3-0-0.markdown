@@ -1,0 +1,82 @@
+---
+layout: post
+title: Redcarpet 3.0.0 now available!
+---
+
+# {{ page.title }} [Robin](http://robin-dupret.com),
+[Vicent](http://vmg.im) ,and I are happy to announce the release of
+Redcarpet 3.0.0! We've got the usual line up of goodies to talk about,
+so let's get to the good stuff.
+
+# Backwards Compatibility
+
+We've removed support for Ruby 1.8.x in this release. If you still need
+Ruby 1.8.x support, then you'll need to stick with Redcarpet 2.3.0.
+
+We've also removed the sundown submodule that was included in the
+Redcarpet codebase. Sundown has been deprecated for some time and all
+the code has been included in the redcarpet repository for awhile as
+well. So long Sundown and thanks for all the fish.
+
+# New features
+
+## Highlight support
+
+We've got a new option you can pass to the `Redcarpet::Markdown` object:
+`:highlight`. This feature will let you use wrap a bit of text in a pair
+of equals signs and Redcarpet will generate markup that will cause it to
+be highlighted. If you want to use this option, you can use the
+following Ruby code:
+
+```ruby
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, :highlight => true)
+```
+
+to render the following markdown
+
+```
+This is ==highlighted== text, yo.
+```
+
+as
+
+```html
+This is <mark>highlighted</mark> text, yo.
+```
+
+Thanks to Sam Soffes for contributing this. If you want to see it in
+action before you give it a try, check out [Sam's
+blog](http://sam.roon.io).
+
+
+# Bug fixes
+
+We've fixed several issues in the Redcarpet codebase in this release.
+Here are some of the highlights:
+
+ - Fixed an issue where mixing code spans and emphasis mangled the output ([#135] and [#190])
+ - Fixed an issue where nested parenthesis in a link didn't render correctly ([#237])
+ - Fixed an issue where FTP URIs were misidentified as email links when using autolinking ([#170])
+ - Fixed an issue where emphasis inside parenthesis was not parsed correctly ([#256])
+ - Fixed an issue where HTML comments were being needlessly escaped ([#268])
+
+Thanks to Robin Dupret for fixing all of these!
+
+
+### Wrapping this up
+
+We're really excited about Redcarpet 3.0.0 and hope you enjoy using it
+as much as we enjoyed making it. If you have any issues, please feel
+free to [file an issue] and we'll take a look at it.
+
+Thanks!
+
+[contributors]: https://github.com/vmg/redcarpet/contributors
+[changelog]: https://github.com/vmg/redcarpet/blob/master/CHANGELOG.md
+[#135]: https://github.com/vmg/redcarpet/issues/135
+[#190]: https://github.com/vmg/redcarpet/issues/190
+[#237]: https://github.com/vmg/redcarpet/issues/237
+[#170]: https://github.com/vmg/redcarpet/issues/170
+[#256]: https://github.com/vmg/redcarpet/issues/256
+[#268]: https://github.com/vmg/redcarpet/issues/268
+[file an issue]: https://github.com/vmg/redcarpet/issues/new
