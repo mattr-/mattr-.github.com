@@ -3,10 +3,11 @@ layout: post
 title: Redcarpet 3.0.0 now available!
 ---
 
-# {{ page.title }} [Robin](http://robin-dupret.com),
-[Vicent](http://vmg.im) ,and I are happy to announce the release of
-Redcarpet 3.0.0! We've got the usual line up of goodies to talk about,
-so let's get to the good stuff.
+# {{ page.title }} 
+
+[Robin](http://robin-dupret.com), [Vicent](http://vmg.im) ,and I are
+happy to announce the release of Redcarpet 3.0.0! We've got the usual
+line up of goodies to talk about, so let's get to the good stuff.
 
 # Backwards Compatibility
 
