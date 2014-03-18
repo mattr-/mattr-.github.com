@@ -3,7 +3,7 @@ layout: post
 title: Vim Tip of the Day
 ---
 
-{{ page.title }}
+# {{ page.title }}
 
 ## Use `Ctrl+R` to paste things from registers into the command line.
 
