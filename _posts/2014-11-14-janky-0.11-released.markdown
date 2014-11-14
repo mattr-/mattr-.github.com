@@ -1,0 +1,20 @@
+---
+layout: post
+title: Janky 0.11 out! Now with support for Slack!
+---
+
+# {{ page.title }} 
+
+Hi there! I'm excited to announce that Janky 0.11 is out! The highlight
+of this release is support for [Slack], thanks to Mathias Bartmann!
+
+We've also converted the Room IDs from integers to strings in order to
+improve chat room support, so you'll want to make sure you follow the
+upgrade instructions [in the
+README](https://github.com/github/janky#upgrading).
+
+This release also marks my first as Janky's maintainer after taking over
+the project earlier in the year. Thanks to the folks at GitHub for the
+support in my taking over their project.
+
+[Slack]: http://slackhq.com
