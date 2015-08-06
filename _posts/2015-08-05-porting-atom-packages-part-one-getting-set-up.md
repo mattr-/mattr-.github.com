@@ -3,6 +3,8 @@ title: "Porting Atom Packages - Part One: Getting Things Set Up"
 layout: post
 ---
 
+# {{ page.title }}
+
 **Intro**
 
 I'm a long time Vim user and have been playing with Atom in my spare time. One of the features that I liked about Tim Pope's vim-rails plugin is the file navigation. There's a couple of plugins for Atom that will do this, but sadly, none of them appear to have been updated for the Atom 1.0 API. So, I decided to fix that, and document the process here, just in case anybody else can benefit from this. For these blog posts, I'll be updating the [rails-navigation plugin](https://atom.io/packages/rails-navigation). I'm also assuming that you're on either OS X or Linux while working through these posts. Let's get started!
