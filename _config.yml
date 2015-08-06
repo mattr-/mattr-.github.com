@@ -1,2 +1,4 @@
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+gems:
+  - jemoji
