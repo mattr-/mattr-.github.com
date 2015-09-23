@@ -18,23 +18,20 @@ html, body {
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
   text-align: center;
 }
 
 h1 {
   font-size: 110%;
-}
-
-h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
-
-h1 {
   margin-bottom: 1em;
 }
 
+h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
 h2 {
+  font-size: 100%;
   margin-bottom: .75em;
 }
 
@@ -57,6 +54,10 @@ a:visited {
 table {
   font-size: inherit;
   font: 100%;
+}
+
+.atom-image-thumbnail {
+  max-width: 613px;
 }
 
 /*****************************************************************************/
@@ -185,7 +186,7 @@ ul.posts {
     padding: 0 .2em;
   }
 
-    #post pre code {
+  #post pre code {
       border: none;
     }
 
