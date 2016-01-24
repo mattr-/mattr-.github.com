@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-     <title>{{ page.title }}</title>
-     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-  </head>
+<html lang="en-us">
+
+  {% include head.html %}
 
   <body>
-    <div class="site">
-      <div class="title">
-        <a href="/">Matt Rogers</a>
-        <a href="/" class="extra">home</a>
-      </div>
 
-      {{content}}
+    {% include sidebar.html %}
 
-      <div class="footer">
-        <div class="contact">
-          <p>
-            Matt Rogers<br />
-            mattrogers@sbcglobal.net
-          </p>
-        </div>
-        <div class="contact-right">
-          <p>
-            <a href="http://github.com/mattr-/">github.com/mattr-</a><br />
-            <a href="http://twitter.com/mattr_">twitter.com/mattr_</a>
-          </p>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
         </div>
       </div>
-      {% include google-analytics.html %}
+
+      <div class="container content">
+        {{ content }}
+      </div>
     </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
   </body>
 </html>

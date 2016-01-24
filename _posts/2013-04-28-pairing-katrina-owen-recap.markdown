@@ -2,8 +2,6 @@
 layout: post
 title: Pair Programming with Katrina Owen
 ---
-## {{ page.title }}
-
 On Thursday, April 25th, I was fortunate enough to be able to spend a
 couple of hours pairing with [Katrina Owen](http://github.com/kytrinyx)
 on a refactoring for [Tracks](http://getontracks.org). Here's a brief

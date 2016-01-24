@@ -2,9 +2,6 @@
 layout: post
 title: Vim Tip of the Day
 ---
-
-# {{ page.title }}
-
 ## Use `Ctrl+R` to paste things from registers into the command line.
 
 I use the fugitive plugin to deal with Git on a daily basis and I had

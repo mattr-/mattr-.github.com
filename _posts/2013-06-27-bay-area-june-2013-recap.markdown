@@ -1,5 +1,4 @@
 ---
-# vim: set et tw=78 :
 layout: post
 title: So I went to the Bay Area...
 ---

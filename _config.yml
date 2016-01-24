@@ -1,4 +1,19 @@
+title: Matt Rogers
+description: Watch Matt Write
+author:
+  - name: Matt Rogers
+  - email: codemattr@gmail.com
+  - url: https://twitter.com/mattr_
+
 markdown: redcarpet
+
 highlighter: pygments
+baseurl: ""
+
+paginate: 5
+relative_permalinks: true
+
 gems:
   - jemoji
+
+version: 2.0.0

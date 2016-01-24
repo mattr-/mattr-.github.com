@@ -2,9 +2,6 @@
 title: hubot-pr-status 0.1.2 released
 layout: post
 ---
-
-{{ page.title }}
-
 I just pushed v0.1.2 of hubot-pr-status to npmjs.org. hubot-pr-status is
 a little hubot script that lets you check the status of a PR on GitHub.
 

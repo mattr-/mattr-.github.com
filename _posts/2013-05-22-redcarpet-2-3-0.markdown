@@ -2,9 +2,6 @@
 layout: post
 title: Redcarpet 2.3.0 now available!
 ---
-
-# {{ page.title }}
-
 [Robin](http://robin-dupret.com), [Vicent](http://vmg.im) ,and I are happy to announce the release of
 Redcarpet 2.3.0. Since the last release, we've made a lot of bug fixes and
 closed many issues on Github. Big thanks to all [the

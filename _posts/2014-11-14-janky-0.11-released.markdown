@@ -2,9 +2,6 @@
 layout: post
 title: Janky 0.11 out! Now with support for Slack!
 ---
-
-# {{ page.title }} 
-
 Hi there! I'm excited to announce that Janky 0.11 is out! The highlight
 of this release is support for [Slack], thanks to Mathias Bartmann!
 

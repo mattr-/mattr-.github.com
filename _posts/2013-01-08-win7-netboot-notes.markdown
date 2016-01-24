@@ -2,9 +2,6 @@
 layout: post
 title: Windows 7 Netboot/Netinstall notes
 ---
-
-# {{ page.title }}
-
 I recently went through the trouble to get one of my machines without a
 hard drive to boot the Windows 7 install over the network, install to a
 network based ISCSI drive, and then boot over the network off that

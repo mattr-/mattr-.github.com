@@ -2,9 +2,6 @@
 layout: post
 title: 'Using twitter-bootstrap-rails without Bundler.require'
 ---
-
-# {{ page.title }}
-
 Myron Marston recently wrote a post recommending [the removal of
 Bundler.require](http://myronmars.to/n/dev-blog/2012/12/5-reasons-to-avoid-bundler-require).
 Go read his post. Go ahead. I'll wait.

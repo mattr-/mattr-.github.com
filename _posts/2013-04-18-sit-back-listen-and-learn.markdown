@@ -2,9 +2,6 @@
 layout: post
 title: Sit Back and Listen. You'll Learn if You Pay Attention.
 ---
-
-# {{ page.title }}
-
 When was the last time you just sat back and listened to the world that's
 going on around you? An hour? A day? A week?
 

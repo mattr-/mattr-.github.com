@@ -2,9 +2,6 @@
 layout: post
 title: Updates to rack-jekyll are coming soon!
 ---
-
-# {{ page.title }}
-
 Ad&#227;o Raul's [rack-jekyll](https://github.com/adaoraul/rack-jekyll) gem
 is a great piece of Rack middleware to serve out Jekyll sites using any
 Rack compatible app server. 

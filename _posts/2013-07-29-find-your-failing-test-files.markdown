@@ -2,9 +2,6 @@
 layout: post
 title: Find Your Failing Tests
 ---
-
-# {{ page.title }}
-
 When I start on a extract method refactoring, my normal trick is to
 `raise` in the method that I'm looking to extract. I then find all the
 test files that failed and stick them in a `wip` rake task.  I can't claim
