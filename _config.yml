@@ -17,3 +17,5 @@ gems:
   - jemoji
 
 version: 2.0.0
+github:
+  repo: https://www.github.com/mattr-/mattr-.github.com
