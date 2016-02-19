@@ -6,15 +6,14 @@ author:
   - url: https://twitter.com/mattr_
 
 markdown: redcarpet
-
-highlighter: pygments
+highlighter: rouge
 baseurl: ""
 
 paginate: 5
-relative_permalinks: true
 
 gems:
   - jemoji
+  - jekyll-paginate
 
 version: 2.0.0
 github:
