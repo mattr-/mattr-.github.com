@@ -5,7 +5,7 @@ author:
   - email: codemattr@gmail.com
   - url: https://twitter.com/mattr_
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 baseurl: ""
 
