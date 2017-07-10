@@ -9,6 +9,9 @@ markdown: kramdown
 highlighter: rouge
 baseurl: ""
 
+collections:
+  - journal
+
 paginate: 5
 
 gems:
