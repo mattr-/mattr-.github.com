@@ -14,7 +14,7 @@ collections:
 
 paginate: 5
 
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-mentions
