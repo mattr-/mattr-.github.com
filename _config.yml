@@ -19,6 +19,6 @@ plugins:
   - jekyll-paginate
   - jekyll-mentions
 
-version: 2.1
+version: 2.2
 github:
   repo: https://www.github.com/mattr-/mattr-.github.com
