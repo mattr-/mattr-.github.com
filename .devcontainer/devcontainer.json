@@ -1,0 +1,5 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/ruby:2.5",
+    "forwardPorts": [4000],
+    "extensions": ["davidanson.vscode-markdownlint","sissel.shopify-liquid"]
+}
