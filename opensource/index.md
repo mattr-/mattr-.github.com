@@ -4,7 +4,7 @@ layout: default
 
 # Open Source
 
-I've been a contributor to open source software for nearly 15 years. While
+I've been a contributor to open source software for more than 20 years. While
 my [GitHub profile](https://github.com/mattr-) has my most recent open source
 work, here's a timeline of other notable contributions I've made.
 
